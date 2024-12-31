@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Entry</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand text-success fw-bold" href="#">JobEntry</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-dark" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#">About</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="jobsDropdown" role="button"
+              data-bs-toggle="dropdown">
+              Jobs
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Job list</a></li>
+              <li><a class="dropdown-item" href="#">Job Detail</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="jobsDropdown" role="button"
+              data-bs-toggle="dropdown">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Job category</a></li>
+              <li><a class="dropdown-item" href="#">Testimonial</a></li>
+              <li><a class="dropdown-item" href="#">404</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#">Contact</a></li>
+        </ul>
+        <a class="btn btn-success ms-3" href="#">Post A Job</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero-section d-flex align-items-center">
+    <div class="container text-center text-md-start">
+      <h1 class="display-4 fw-bold text-white">Find The Perfect Job That You Deserved</h1>
+      <p class="text-white-50 mt-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum
+        et diam justo clita et kasd rebum sea elitr.</p>
+      <div class="d-flex justify-content-center justify-content-md-start mt-4">
+        <a href="#" class="btn btn-success me-3">Search A Job</a>
+        <a href="#" class="btn btn-primary">Find A Talent</a>
+      </div>
+    </div>
+  </header>
+  <section class="search-section py-3">
+    <div class="container">
+      <form class="d-flex bg-white shadow-sm p-3 rounded">
+        <input type="text" class="form-control me-2" placeholder="Keyword" />
+        <select class="form-select me-2">
+          <option selected>Category</option>
+          <option value="1">Category 1</option>
+          <option value="2">Category 2</option>
+          <option value="3">Category 3</option>
+        </select>
+        <select class="form-select me-2">
+          <option selected>Location</option>
+          <option value="1">Thrissur</option>
+          <option value="2">Ernakulam</option>
+          <option value="3">Palakkad</option>
+        </select>
+        <button type="submit" class="btn btn-dark">Search</button>
+      </form>
+    </div>
+  </section>
+  <section class="categories-section py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Explore By Category</h2>
+      <div class="row g-4">
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-envelope fs-1 text-success"></i>
+              <img src="1.png" alt="logo">
+              <h5 class="card-title mt-3">Marketing</h5>
+              <p class="text-muted"><span style="color: green;">123 Vacancy</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-headset fs-1 text-success"></i>
+              <img src="2.png" alt="logo">
+              <h5 class="card-title mt-3">Customer Service</h5>
+              <p class="text-muted"><span style="color: green;">123 Vacancy</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-person fs-1 text-success"></i>
+              <img src="3.png" alt="logo">
+              <h5 class="card-title mt-3">Human Resource</h5>
+              <p class="text-muted"><span style="color: green;">123 Vacancy</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-list-check fs-1 text-success"></i>
+              <img src="4.png" alt="logo">
+
+              <h5 class="card-title mt-3">Project Management</h5>
+              <p class="text-muted"><span style="color: green;">123 Vacancy</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-graph-up fs-1 text-success"></i>
+              <img src="5.png" alt="logo">
+
+              <h5 class="card-title mt-3">Business Development</h5>
+              <p class="text-muted"><span style="color: green;">123 Vacancy</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-megaphone fs-1 text-success"></i>
+              <img src="6.png" alt="logo">
+
+              <h5 class="card-title mt-3">Sales & Communication</h5>
+              <p class="text-muted"><span style="color: green;">123 Vacancy</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-book fs-1 text-success"></i>
+              <img src="7.png" alt="logo">
+
+              <h5 class="card-title mt-3">Teaching & Education</h5>
+              <p class="text-muted"><span style="color: green;">123 Vacancy</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-pencil fs-1 text-success"></i>
+              <img src="8.png" alt="logo">
+
+              <h5 class="card-title mt-3">Design & Creative</h5>
+              <p class="text-muted"><span style="color: green;">123 Vacancy</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-6">
+            <img src="man1.png" alt="Team 1" class="img-fluid mb-3">
+          </div>
+          <div class="col-6">
+            <img src="man2.png" alt="Team 2" class="img-fluid mb-3">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <img src="man3.png" alt="Team 3" class="img-fluid mb-3">
+          </div>
+          <div class="col-6">
+            <img src="man4.png" alt="Team 4" class="img-fluid mb-3">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h2>We Help To Get The Best Job And Find A Talent</h2>
+        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.</p>
+        <ul>
+          <li>Tempor erat elitr rebum at clita</li>
+          <li>Aliqu diam amet diam et eos</li>
+          <li>Clita duo justo magna dolore erat amet</li>
+        </ul>
+        <a href="#" class="btn btn-success">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container py-5">
+    <h1 class="text-center mb-4">Job Listing</h1>
+    <div class="job-tab">
+      <a href="#" class="active">Featured</a>
+      <a href="#">Full Time</a>
+      <a href="#">Part Time</a>
+    </div>
+    <div class="job-card">
+      <div class="job-details">
+        <img src="logo1.png" alt="TechCom Logo">
+        <div>
+          <h5 class="mb-1">Software Engineer</h5>
+          <p class="mb-1"><i class="bi bi-geo-alt"></i> New York, USA &nbsp; <i class="bi bi-clock"></i> Full Time</p>
+          <p class="mb-0"><i class="bi bi-currency-dollar"></i> $123 - $456</p>
+        </div>
+      </div>
+      <div class="apply-btn">
+        <p class="mb-1"><i class="bi bi-calendar"></i> Date Line: 01 Jan, 2045</p>
+        <a href="#" class="btn btn-success">Apply Now</a>
+      </div>
+    </div>
+    <div class="job-card">
+      <div class="job-details">
+        <img src="logo2.png" alt="Marketing Logo">
+        <div>
+          <h5 class="mb-1">Marketing Manager</h5>
+          <p class="mb-1"><i class="bi bi-geo-alt"></i> New York, USA &nbsp; <i class="bi bi-clock"></i> Full Time</p>
+          <p class="mb-0"><i class="bi bi-currency-dollar"></i> $123 - $456</p>
+        </div>
+      </div>
+      <div class="apply-btn">
+        <p class="mb-1"><i class="bi bi-calendar"></i> Date Line: 01 Jan, 2045</p>
+        <a href="#" class="btn btn-success">Apply Now</a>
+      </div>
+    </div>
+    <div class="job-card">
+      <div class="job-details">
+        <img src="logo3.png" alt="TechCom Logo">
+        <div>
+          <h5 class="mb-1">Product Designer</h5>
+          <p class="mb-1"><i class="bi bi-geo-alt"></i> New York, USA &nbsp; <i class="bi bi-clock"></i> Full Time</p>
+          <p class="mb-0"><i class="bi bi-currency-dollar"></i> $123 - $456</p>
+        </div>
+      </div>
+      <div class="apply-btn">
+        <p class="mb-1"><i class="bi bi-calendar"></i> Date Line: 01 Jan, 2045</p>
+        <a href="#" class="btn btn-success">Apply Now</a>
+      </div>
+    </div>
+    <div class="job-card">
+      <div class="job-details">
+        <img src="logo4.png" alt="TechCom Logo">
+        <div>
+          <h5 class="mb-1">Creative Director</h5>
+          <p class="mb-1"><i class="bi bi-geo-alt"></i> New York, USA &nbsp; <i class="bi bi-clock"></i> Full Time</p>
+          <p class="mb-0"><i class="bi bi-currency-dollar"></i> $123 - $456</p>
+        </div>
+      </div>
+      <div class="apply-btn">
+        <p class="mb-1"><i class="bi bi-calendar"></i> Date Line: 01 Jan, 2045</p>
+        <a href="#" class="btn btn-success">Apply Now</a>
+      </div>
+    </div>
+    <div class="job-card">
+      <div class="job-details">
+        <img src="logo5.png" alt="TechCom Logo">
+        <div>
+          <h5 class="mb-1">Wordpress Developer</h5>
+          <p class="mb-1"><i class="bi bi-geo-alt"></i> New York, USA &nbsp; <i class="bi bi-clock"></i> Full Time</p>
+          <p class="mb-0"><i class="bi bi-currency-dollar"></i> $123 - $456</p>
+        </div>
+      </div>
+      <div class="apply-btn">
+        <p class="mb-1"><i class="bi bi-calendar"></i> Date Line: 01 Jan, 2045</p>
+        <a href="#" class="btn btn-success">Apply Now</a>
+      </div>
+    </div>
+  </div>
+    <div class="container py-5">
+        <button class="btn btn-success d-block mx-auto mb-4">Browse More Jobs</button>
+        <h2 class="text-center mb-5">Our Clients Say!!!</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <div class="quote">“</div>
+                    <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam.</p>
+                    <div class="d-flex align-items-center justify-content-center gap-3">
+                        <img src="client1.png" alt="Client 1">
+                        <div>
+                            <div class="client-name">Client Name</div>
+                            <div class="client-profession">Profession</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial highlight">
+                    <div class="quote">“</div>
+                    <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam.</p>
+                    <div class="d-flex align-items-center justify-content-center gap-3">
+                        <img src="client2.png" alt="Client 2">
+                        <div>
+                            <div class="client-name">Client Name</div>
+                            <div class="client-profession">Profession</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <div class="quote">“</div>
+                    <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam.</p>
+                    <div class="d-flex align-items-center justify-content-center gap-3">
+                        <img src="client3.png" alt="Client 3">
+                        <div>
+                            <div class="client-name">Client Name</div>
+                            <div class="client-profession">Profession</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <button class="btn btn-light mx-1">⬤</button>
+            <button class="btn btn-light mx-1">⬤</button>
+            <button class="btn btn-light mx-1">⬤</button>
+        </div>
+    </div>
+    <footer class="footer text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact</h5>
+                    <p><i class="bi bi-geo-alt"></i> 123 Street, New York, USA</p>
+                    <p><i class="bi bi-telephone"></i> +012 345 67890</p>
+                    <p><i class="bi bi-envelope"></i> info@example.com</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h5>Newsletter</h5>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Your email">
+                        <button>SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
